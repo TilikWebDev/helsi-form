@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { CalendarIcon } from 'lucide-react'; // Replace with the actual path to your calendar icon
+import { CalendarIcon } from 'lucide-react';
 import { cn } from '@utils';
 
 export interface InputProps
@@ -15,7 +15,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
       if (inputRef.current) {
         inputRef.current.focus();
         if (type === 'date') {
-          inputRef.current.showPicker && inputRef.current.showPicker(); // Open the date picker if supported
+          inputRef.current.showPicker && inputRef.current.showPicker();
         }
       }
     };

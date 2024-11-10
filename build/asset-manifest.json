@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/helsi-form/static/css/main.c3ff82a0.css",
+    "main.js": "/helsi-form/static/js/main.559e0beb.js",
+    "index.html": "/helsi-form/index.html",
+    "main.c3ff82a0.css.map": "/helsi-form/static/css/main.c3ff82a0.css.map",
+    "main.559e0beb.js.map": "/helsi-form/static/js/main.559e0beb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3ff82a0.css",
+    "static/js/main.559e0beb.js"
+  ]
+}
