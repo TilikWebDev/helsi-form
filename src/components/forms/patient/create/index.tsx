@@ -90,6 +90,10 @@ const PatientForm: React.FC = () => {
 
       <Form
         onSubmit={onSubmit}
+        initialValues={{
+          hasMiddleName: true,
+          hasTaxId: true,
+        }}
         validate={(values) => validateFormValues(values, validationSchema)}
         render={({ handleSubmit, form, values, submitting }) => (
           <form onSubmit={handleSubmit} className="space-y-6">
